@@ -2,9 +2,9 @@
 void check(char c)
 {
 	if( (c>=65 && c<=90) || (c>=97 && c<=122))
-	printf("Character is Alphabet");
+	printf("Alphabet");
 	else
-	printf("Character is not an Alphabet");
+	printf("Not");
 }
 
 int main()
