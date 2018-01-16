@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 void odd(int f, int l)
 {
 	int i;
