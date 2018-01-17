@@ -1,21 +1,17 @@
 #include<stdio.h>
-void rev(char s[])
+#include<string.h>
+void even_odd(char s[])
 {
-	int i,j,temp;
-	i=0;
-	j=i+1;
-	while(i!='\0')
+	int i,temp;
+	for(i=0;i<strlen(s)-1;i=i+2)
 	{
 	
 	temp=s[i];
-	s[i]=s[j];
-	s[j]=temp;
-	i++;
-	i++;
-	j++;
-	j++;
+	s[i]=s[i+1];
+	s[i+1]=temp;
+
 }
-printf("%s",s);
+printf("%s",s);	
 	
 }
 int main()
@@ -23,7 +19,6 @@ int main()
       char s[20];
       printf("Enter a number: ");
       scanf("%s",s);
-      rev(s);
+      even_odd(s);
       return 0;
 }
-
