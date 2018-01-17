@@ -17,7 +17,7 @@ printf("%s",s);
 int main()
 {
       char s[20];
-      printf("Enter a number: ");
+      printf("Enter a String ");
       scanf("%s",s);
       even_odd(s);
       return 0;
